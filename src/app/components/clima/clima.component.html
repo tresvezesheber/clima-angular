@@ -1,0 +1,14 @@
+<main class="clima" [ngClass]="diaOuNoite()">
+  <section>
+    <h1 class="clima__titulo">{{ clima.results.city }}</h1>
+  </section>
+  <section>
+    <img [src]="imageCondition" alt="">
+
+    <p class="clima__temperatura">{{ clima.results.temp }}º<span class="clima__descricao">{{ clima.results.description }}</span></p>
+  </section>
+  <section>
+    <p class="clima__hora">{{ clima.results.time }}</p>
+  </section>
+</main>
+

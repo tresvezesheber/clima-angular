@@ -1,0 +1,40 @@
+.clima {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+
+.clima--dia {
+  background: #00B6DB;
+}
+
+.clima--noite {
+  background: #013F70;
+}
+
+.clima__titulo {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.clima__temperatura {
+  color: #fff;
+  font-size: 72px;
+  font-weight: 700;
+}
+
+.clima__descricao {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.clima__hora {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+}
